@@ -15,6 +15,7 @@ const viteConfig = {
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
+    include: ['three'],
   },
 };
 
