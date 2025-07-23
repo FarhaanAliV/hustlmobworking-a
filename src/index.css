@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Landing Page Specific Styles */
+.landing-gradient {
+  background: linear-gradient(135deg, #031E34 0%, #0026B5 50%, #031E34 100%);
+}
+
+.landing-text-gradient {
+  background: linear-gradient(135deg, #FF7F50 0%, #E24E1B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.landing-card-blur {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Smooth scrolling for landing page */
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
     @apply antialiased text-gray-900 bg-gray-50;

@@ -14,6 +14,13 @@ export default {
           light: '#FF5A1F',
           dark: '#E63A0B',
         },
+        landing: {
+          navy: '#031E34',
+          blue: '#0026B5',
+          orange: '#E24E1B',
+          coral: '#FF7F50',
+          gray: '#D9DDE7',
+        },
         accent: {
           DEFAULT: '#FFFFFF', // White
           dark: '#F5F5F5',
